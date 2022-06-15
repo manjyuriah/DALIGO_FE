@@ -1,0 +1,41 @@
+여기에 변동사항을 적어주세요
+---------------------------------------------------
+
+
+App React 파일구조
+learn
+    └-build
+    └-public
+        └-index.html
+    └-root
+    └-src
+        └-app
+            └-app.js
+            └-index.js
+        └-assets
+            └-css
+            └-images
+            └-font
+            └-etc
+        └-components
+            └-layout
+            └-ui
+                └-button                
+            └-modals
+        └-pages
+            └-router
+            └-login
+            └-main
+            └-계속생성중예정
+        └-lib
+            └-api
+            └-custom(hook)
+            └-util
+            └-etc
+        └-store
+            └-configureStore
+            └-reducers
+            └-actions 
+            └-etc
+        └-etc
+            └-기타등등
