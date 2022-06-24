@@ -1,3 +1,10 @@
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
 body {
   margin: 0;
   font-family: 'Noto Sans KR', sans-serif;
@@ -5,7 +12,4 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
