@@ -1,2 +1,2 @@
 # DALIGO_FE
-front-end Developer
+front-end Developer.
