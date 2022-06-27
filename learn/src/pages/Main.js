@@ -1,11 +1,11 @@
 
 //total header - title
 
-const main = () => {
+const Main = () => {
     return(
      <>
-
+        <h1>메인</h1>
      </>   
     )
 }
-export default main;
+export default Main;

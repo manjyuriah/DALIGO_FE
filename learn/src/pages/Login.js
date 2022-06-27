@@ -1,11 +1,11 @@
 
 //total header - title
 
-const login = () => {
+const Login = () => {
     return(
      <>
         <div>로그인</div>
      </>   
     )
 }
-export default login;
+export default Login;
