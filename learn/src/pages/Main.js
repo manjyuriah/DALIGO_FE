@@ -5,51 +5,56 @@ import "../assets/css/main.scss";
 const Main = () => {
   return (
     <>
-      <section className="mainTop">
-        <div className="mainInner">
-          <header className="mainHeader">
-            <h1>LOGO</h1>
+      <section className="main__Wrapper">
+        <div className="main-title-inner">
+
+          <header className="main-header">
+            <i className="main-logo"></i>
             <div className="notice">notice</div>
           </header>
-          <nav className="mainNav">
-            <div className="nickName">야근요정</div>
-            <div className="mainBtns">
-              <button>시험 치기</button>
-              <button>학원 찾기</button>
+
+          <div className="main-navi">
+            <h2 className="user-nickname">야근요정</h2>
+            <div className="main-header-buttons">
+              <button className="load-testpage-btn" type="button">시험 치기</button>
+              <button className="find-academy-btn" type="button">학원 찾기</button>
             </div>
-          </nav>
-        </div>
-      </section>
-      <section className="mainBody">
-        <div className="mainInner">
-          <div className="testBox">
-            <div></div>
-            <div></div>
           </div>
-          <div className="prepareTest">기능 및 도로주행 시험 대비</div>
+
+          <div className="index-body">
+            <div className="main-title-inner">
+              <div className="testBox">
+                <div></div>
+                <div></div>
+              </div>
+              <div className="prepareTest">기능 및 도로주행 시험 대비</div>
+            </div>
+          </div>
+
         </div>
       </section>
-      <section className="mainCommunity">
-        <div className="mainInner">
-          <p className="driveManner">초보자가 꼭 기억해야 할 운전 매너란?</p>
-          <div className="communityBox">
+      
+      <section className="main-community">
+        <div className="community-inner-box">
+          <p className="main-banner-sec">초보자가 꼭 기억해야 할 운전 매너란?</p>
+          <div className="community-box">
             <h2>커뮤니티</h2>
-            <div className="communityContent">
-              <div className="contentTop">
+            <div className="community-content">
+              <div className="content-top">
                 <div>이런저런일</div>
                 <button>더보기 &gt;</button>
               </div>
-              <ul className="driverNews">
+              <ul className="driver-news">
                 <li>
-                  <div class="newsImg" alt="newsImg"></div>
-                  <div className="newsTitle">
+                  <div class="news-img" alt="news-img"></div>
+                  <div className="news-title">
                     이 정도면 최고 난이도 시험 아니냐?!{" "}
                   </div>
                 </li>
                 <li></li>
                 <li></li>
               </ul>
-              <ul className="bannerDisc">
+              <ul className="banner-disc">
                 <li></li>
                 <li></li>
                 <li></li>
@@ -58,21 +63,23 @@ const Main = () => {
           </div>
         </div>
       </section>
-      <section className="pickBox">
-        <div className="mainInner">
-          <div className="siteInform">
+      <section className="pick-box">
+        <div className="main-inner">
+          <div className="info-drive-common">
             <div>#Pick</div>
             <p>우리동네 운전 연습하기 좋은 곳 없을까?</p>
             <p>#서울근교 #울산 #부산 #광주</p>
           </div>
-          <div className="siteImage">
+          <div className="site-image">
             <img alt="운전연습 장소"></img>
           </div>
         </div>
       </section>
+      
       <footer>
-        <div className="mainInner">
-          <div className="footerBox">
+        <div className="main-inner">
+          <div className="footer-box">
+          {/*상단에 하단네비게이션 입니다.- no-footer -*/}
             <button>소식</button>
             <button>시험</button>
             <button>홈</button>

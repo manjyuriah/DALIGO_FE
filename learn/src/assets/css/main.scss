@@ -10,34 +10,46 @@ button {
   text-align: center;
   cursor: pointer;
 }
-.mainInner {
+.main-title-inner{
   width: 320px;
+  border: 1px solid red;
   margin: 0 auto;
 }
 // Section-top
-.mainTop {
+.main__Wrapper {
   background-color: #aaa;
   padding: 0 20px;
-  .mainHeader {
+  
+  .main-header {
     display: flex;
     justify-content: space-between;
     height: 50px;
+    border: 1px solid green;
+    .main-logo{ 
+      width: 140px;
+      border: 1px solid red;
+      padding: 30px 0 0 0;
+      margin: 5px 0 5px 5px;
+      background-image: auto;
+      background: url(../images/LEARN_logo.svg) 20px no-repeat;
+    }
   }
-  .mainNav {
+  
+  .main-navi {
     padding: 0 10px;
-    .nickName {
+    .user-nickname {
       text-align: left;
       margin-bottom: 16px;
       font-weight: 700;
       font-size: 18px;
       color: #3c3c39;
     }
-    .mainBtns {
+    .main-header-buttons {
       display: flex;
       justify-content: space-between;
       button {
         width: 140px;
-        height: 30px;
+        height: 35px;
         line-height: 30px;
         background: #ffea69;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
@@ -49,7 +61,7 @@ button {
   }
 }
 // Section-middle
-.mainBody {
+.index-body{
   background-color: #fff;
   padding: 16px 14px;
   .testBox {
@@ -75,15 +87,15 @@ button {
   }
 }
 // Section-community
-.mainCommunity {
-  .driveManner {
+.main-community {
+  .main-banner-sec {
     width: 100%;
     height: 56px;
     background: #ffffff;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
     line-height: 56px;
   }
-  .communityBox {
+  .community-box {
     padding: 0 20px;
     h2 {
       text-align: left;
@@ -93,7 +105,7 @@ button {
       letter-spacing: -0.05em;
       color: #3c3c39;
     }
-    .communityContent {
+    .community-content {
       width: 300px;
       height: 200px;
       margin: 0 auto;
@@ -101,7 +113,7 @@ button {
       background: #ffffff;
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
       border-radius: 7px;
-      .contentTop {
+      .content-top{
         display: flex;
         justify-content: space-between;
         margin-bottom: 16px;
@@ -117,7 +129,7 @@ button {
           color: #3c3c39;
         }
       }
-      .driverNews {
+      .driver-news {
         display: flex;
         width: 500px;
         li {
@@ -127,11 +139,11 @@ button {
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
           border-radius: 5px;
           margin-right: 8px;
-          .newsImg {
+          .news-img {
             height: 72px;
             background-color: rgb(233, 233, 233);
           }
-          .newsTitle {
+          .news-title {
             font-size: 10px;
             letter-spacing: -0.06em;
             color: #737273;
@@ -140,7 +152,7 @@ button {
           }
         }
       }
-      .bannerDisc {
+      .banner-disc {
         height: 30px;
         margin: 0 auto;
         display: flex;
@@ -159,17 +171,17 @@ button {
     }
   }
 }
-.pickBox {
+.pick-box {
   width: 100%;
   height: 150px;
   background-color: #dbeff2;
   margin-top: 16px;
   padding: 5px 10px;
-  .mainInner {
+  .main-inner {
     display: flex;
     justify-content: space-between;
   }
-  .siteInform {
+  .info-drive-common {
     text-align: left;
     padding-left: 10px;
     & p {
@@ -182,7 +194,7 @@ button {
       }
     }
   }
-  .siteImage {
+  .site-image {
     width: 190px;
     height: 140px;
     background-color: #fff;
@@ -194,7 +206,7 @@ footer {
   height: 50px;
   margin-top: 16px;
 }
-.footerBox {
+.footer-box {
   display: flex;
   justify-content: space-around;
   padding: 15px 8px;
