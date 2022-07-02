@@ -5,7 +5,8 @@ import "../assets/css/main.scss";
 const Main = () => {
   return (
     <>
-      <section className="main__Wrapper">
+    <section className="main__Wrapper">
+      <section className="main-Wrap-position">
         <div className="main-title-inner">
 
           <header className="main-header">
@@ -75,7 +76,7 @@ const Main = () => {
           </div>
         </div>
       </section>
-      
+
       <footer>
         <div className="main-inner">
           <div className="footer-box">
@@ -88,6 +89,7 @@ const Main = () => {
           </div>
         </div>
       </footer>
+    </section>
     </>
   );
 };
