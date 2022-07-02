@@ -2,6 +2,7 @@
 import "../assets/css/main.scss";
 
 //test file load
+//생성, 수정중 입니다.
 const Main = () => {
   return (
     <>

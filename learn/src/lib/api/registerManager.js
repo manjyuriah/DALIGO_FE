@@ -9,7 +9,7 @@ function registerProcess(_nickname, _age, _area, _setState) {
         data: {
             nickname: _nickname,
             age: _age,
-            area, _area
+            area: _area
         }
     })
     .then(res => {

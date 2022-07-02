@@ -16,13 +16,12 @@ button {
   margin: 0 auto;
 }
 .main__Wrapper{
-  width: 768px;
+  width: 768px; //tablet size
   margin: 0 auto;
-  background-color: #aaa;
   border: 1px solid red;
 
 }
-// Section-top
+// 메인 상단
 .main-Wrap-position {
   border: 1px solid red;
   background-color: #aaa;
@@ -68,7 +67,7 @@ button {
     }
   }
 }
-// Section-middle
+// 컨텐츠 바디
 .index-body{
   background-color: #fff;
   padding: 16px 14px;
