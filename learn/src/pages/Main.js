@@ -11,8 +11,10 @@ const Main = () => {
         <div className="main-title-inner">
 
           <header className="main-header">
-            <i className="main-logo"></i>
-            <div className="notice">notice</div>
+            <div className="header-inner">
+              <i className="main-logo"></i>
+              <div className="notice">notice</div>
+            </div>
           </header>
 
           <div className="main-navi">
@@ -24,7 +26,7 @@ const Main = () => {
           </div>
 
           <div className="index-body">
-            <div className="main-title-inner">
+            <div className="menu-inner-sec">
               <div className="testBox">
                 <div></div>
                 <div></div>
@@ -78,10 +80,10 @@ const Main = () => {
         </div>
       </section>
 
-      <footer>
+      {/*<footer>
         <div className="main-inner">
           <div className="footer-box">
-          {/*상단에 하단네비게이션 입니다.- no-footer -*/}
+          상단에 하단네비게이션 입니다.- no-footer -
             <button>소식</button>
             <button>시험</button>
             <button>홈</button>
@@ -89,7 +91,7 @@ const Main = () => {
             <button>내정보</button>
           </div>
         </div>
-      </footer>
+      </footer> */}
     </section>
     </>
   );

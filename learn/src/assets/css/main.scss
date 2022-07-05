@@ -12,8 +12,8 @@ button {
 }
 .main-title-inner{
   width: 320px;
-  border: 1px solid red;
-  margin: 0 auto;
+  background-color: #e9e9e9;
+  margin: 10px auto;
 }
 .main__Wrapper{
   width: 768px; //tablet size
@@ -24,26 +24,31 @@ button {
 // 메인 상단
 .main-Wrap-position {
   border: 1px solid red;
-  background-color: #aaa;
+  background-color: #F5F5F5;
   padding: 0 20px;
-  
+
   .main-header {
     display: flex;
     justify-content: space-between;
     height: 50px;
-    border: 1px solid green;
+    .header-inner{
+      min-width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 5px;
+      outline: 1px solid red;
+    }
     .main-logo{ 
-      width: 140px;
-      border: 1px solid red;
-      padding: 30px 0 0 0;
-      margin: 5px 0 5px 5px;
-      background-image: auto;
-      background: url(../images/LEARN_logo.svg) 20px no-repeat;
+      width: 120px;
+      height: 30px;
+      background-size: contain;
+      background: url(../images/main-logo-pro.svg) no-repeat;
     }
   }
   
   .main-navi {
     padding: 0 10px;
+
     .user-nickname {
       text-align: left;
       margin-bottom: 16px;
@@ -71,33 +76,39 @@ button {
 .index-body{
   background-color: #fff;
   padding: 16px 14px;
-  .testBox {
-    display: flex;
-    justify-content: space-between;
-    & div {
-      width: 136px;
-      height: 116px;
-      background: #fff2a1;
+  .menu-inner-sec{
+    border: 1px solid red;
+  }
+    .testBox {
+      display: flex;
+      justify-content: space-between;
+      & div {
+        width: 136px;
+        height: 116px;
+        background: #fff2a1;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 7px;
+        font-size: 14px;
+      }
+    }
+    .prepareTest {
+      width: 290px;
+      height: 56px;
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
       border-radius: 7px;
-      font-size: 14px;
+      line-height: 56px;
+      margin: 0 auto;
     }
-  }
-  .prepareTest {
-    width: 290px;
-    height: 56px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 7px;
-    line-height: 56px;
-    margin: 0 auto;
-    margin: 16px;
-  }
+  
 }
 // Section-community
 .main-community {
   .main-banner-sec {
-    width: 100%;
+    width: 98%;
     height: 56px;
+    margin: 5px auto;
+    outline:1px solid #e9e9e9;
+    border-radius: 7px;
     background: #ffffff;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
     line-height: 56px;
@@ -160,7 +171,7 @@ button {
         }
       }
       .banner-disc {
-        height: 30px;
+        height: 40px;
         margin: 0 auto;
         display: flex;
         align-items: center;
