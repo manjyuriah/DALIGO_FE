@@ -1,4 +1,5 @@
 //total header - title
+import { Styled } from "components/core/ButtonStyleList";
 import "../assets/css/main.scss";
 
 //test file load
@@ -80,18 +81,7 @@ const Main = () => {
         </div>
       </section>
 
-      {/*<footer>
-        <div className="main-inner">
-          <div className="footer-box">
-          상단에 하단네비게이션 입니다.- no-footer -
-            <button>소식</button>
-            <button>시험</button>
-            <button>홈</button>
-            <button>위치안내</button>
-            <button>내정보</button>
-          </div>
-        </div>
-      </footer> */}
+      <Styled></Styled>
     </section>
     </>
   );
