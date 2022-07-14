@@ -1,7 +1,7 @@
 
 //total header - title
 import { useState } from "react";
-import styled,{css, ThemeProvider} from 'styled-components';
+import styled,{ ThemeProvider } from 'styled-components';
 import Button from "./ButtonStyled";
 
 
@@ -35,6 +35,7 @@ export function Styled({props}) {
                 <ThemeProvider
                     theme={{
                         palette:{
+                            //색상리스트입니다
                             blue: '#2C80FF',
                             gray: '#495057',
                             pink: '#f06595',
@@ -43,33 +44,33 @@ export function Styled({props}) {
                 >
                     <Block>
                         <ButtonGroup>
-                            <Button variant='mainbtn-large' size='large'>L-Button</Button>
-                            <Button>Button</Button>
-                            <Button size='small'>S-Button</Button>
+                            <Button variant='mainbtn-large' size='large'>L-Button1</Button>
+                            <Button>Button2</Button>
+                            <Button size='small'>S-Button3</Button>
                         </ButtonGroup>
 
                         <ButtonGroup>
-                            <Button color='gray' size='large'>Button</Button>
-                            <Button color='gray'>Button</Button>
-                            <Button color='gray' size='small'>Button</Button>
+                            <Button color='gray' size='large'>Button4</Button>
+                            <Button color='gray'>Button5</Button>
+                            <Button color='gray' size='small'>Button6</Button>
                         </ButtonGroup>
 
                         <ButtonGroup>
-                            <Button color='pink' size='large'>Button</Button>
-                            <Button color='pink'>Button</Button>
-                            <Button color='pink' size='small'>Button</Button>
+                            <Button color='pink' size='large'>Button7</Button>
+                            <Button color='pink'>Button8</Button>
+                            <Button color='pink' size='small'>Button9</Button>
                         </ButtonGroup>
 
                         <ButtonGroup>
-                            <Button size='large' outline>Button</Button>
-                            <Button color='gray' outline>Button</Button>
-                            <Button color='pink' size='small' outline>Button</Button>
+                            <Button size='large' outline>Button10</Button>
+                            <Button color='gray' outline>Button11</Button>
+                            <Button color='pink' size='small' outline>Button12</Button>
                         </ButtonGroup>
 
                         <ButtonGroup>
-                            <Button size='large' fullWidth>Button</Button>
-                            <Button color='gray' size='large' fullWidth>Button</Button>
-                            <Button color='pink' size='large' fullWidth onClick={onClick}>Button</Button>
+                            <Button size='large' fullWidth>Button13</Button>
+                            <Button color='gray' size='large' fullWidth>Button14</Button>
+                            <Button color='pink' size='large' fullWidth onClick={onClick}>Button15</Button>
                         </ButtonGroup>
                     </Block>
                 </ThemeProvider>
