@@ -4,7 +4,6 @@ import { useState } from "react";
 import styled,{ ThemeProvider } from 'styled-components';
 import Button from "./ButtonStyled";
 
-
 const Block = styled.div`
     width: 512px;
     margin: 0 auto;
