@@ -68,7 +68,7 @@ const StyledButton = styled.button`
     color: white;
     font-weight: bold;
     cursor: pointer;
-    margin: 0 2px; // 화면상 보여주기위한 마진값
+    margin: 0 2px; // 화면상 보여주기위한 마진값(없애도됩니다)
     padding-left: 1rem;
     padding-right: 1rem;
 
