@@ -1,7 +1,8 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import styled from "styled-components";
 import PropTypes from 'prop-types';
 import CloseButton from "./CloseButton";
+import ModalPortal from "./ModalPortal";
 
 const Modal = ({
     className,
@@ -35,19 +36,21 @@ const Modal = ({
 
     return(
         <>
-            <ModalOverlay visible={visible}>
-            <ModalWrap 
-                className={className}
-                onClick={maskClosable ? onMaskClick : null} 
-                tabIndex={-1} 
-                visible={visible}
-            >
-                <ModalInner tabIndex='0' className="modal-inner">
-                {closable && <CloseButton className="modal-close" onClick={close} />}
-                {children}
-                </ModalInner>
-            </ModalWrap>
-            </ModalOverlay>
+            <ModalPortal elementId='modal-root'>
+                <ModalOverlay visible={visible}>
+                <ModalWrap 
+                    className={className}
+                    onClick={maskClosable ? onMaskClick : null} 
+                    tabIndex={-1} 
+                    visible={visible}
+                >
+                    <ModalInner tabIndex='0' className="modal-inner">
+                    {closable && <CloseButton className="modal-close" onClick={close} />}
+                    {children}
+                    </ModalInner>
+                </ModalWrap>
+                </ModalOverlay>
+            </ModalPortal>
         </>
     )
 }
