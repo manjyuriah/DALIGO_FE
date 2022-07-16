@@ -3,7 +3,9 @@
 const EmailAuthentication = () => {
      return(
          <>
+            <div className="">
 
+            </div>
          </>
      )
  }
