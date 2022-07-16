@@ -1,5 +1,4 @@
 //total header - title
-import { Styled } from "components/core/ButtonStyleList";
 import "../assets/css/main.scss";
 
 //test file load
@@ -80,8 +79,6 @@ const Main = () => {
           </div>
         </div>
       </section>
-
-      <Styled></Styled>
     </section>
     </>
   );

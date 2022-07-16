@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <Link to="/">main</Link>
       <Link to="/login">login</Link>
+      <Link to="/test2">디자인시스템</Link>
       <Link to="/test">test</Link>
       <Router/>
     </div>

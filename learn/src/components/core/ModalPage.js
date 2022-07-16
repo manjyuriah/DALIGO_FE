@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Modal from "./Modal";
 
 const ModalPage = () => {
@@ -19,16 +19,18 @@ const ModalPage = () => {
 
     return(
         <>
-            <button onClick={openModal}>열려라 모달아</button>
-            {
-                modalVisible && <Modal
-                    visible={ modalVisible }
-                    closable={ true }
-                    maskClosable={ true }
-                    onClose={closeModal}>
-                    반가워ㅋㅋㅋ
-                </Modal>
-            }
+            <div>
+                <button onClick={openModal}>열려라 모달아</button>
+                {
+                    modalVisible && <Modal
+                        visible={ modalVisible }
+                        closable={ true }
+                        maskClosable={ true }
+                        onClose={closeModal}>
+                        반가워ㅋㅋㅋ
+                    </Modal>
+                }
+            </div>
         </>
     )
 }
