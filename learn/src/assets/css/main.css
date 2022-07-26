@@ -1,0 +1,135 @@
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  border: none;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.mainTop {
+  height: 130px;
+  background-color: #aaa;
+  padding: 0 20px;
+}
+.mainTop .mainHeader {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+.mainTop .mainNav {
+  padding: 0 10px;
+}
+.mainTop .mainNav .nickName {
+  text-align: left;
+  margin-bottom: 10px;
+}
+.mainTop .mainNav .mainBtns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainBody {
+  background-color: #fff;
+  padding: 20px;
+}
+.mainBody .testBox {
+  display: flex;
+}
+.mainBody .testBox div {
+  width: 200px;
+  height: 180px;
+  background-color: #aaa;
+  margin: 10px;
+}
+.mainBody .testBox div:last-child {
+  height: 80px;
+  width: 100%;
+}
+
+.mainCommunity .driveManner {
+  width: 100%;
+  height: 50px;
+  background-color: #aaa;
+}
+.mainCommunity .communityBox {
+  padding: 0 20px;
+}
+.mainCommunity .communityBox h3 {
+  text-align: left;
+}
+.mainCommunity .communityBox .communityContent {
+  width: 300px;
+  height: 200px;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 10px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+.mainCommunity .communityBox .communityContent .contentTop {
+  display: flex;
+  justify-content: space-between;
+}
+.mainCommunity .communityBox .communityContent .bannerDisc {
+  height: 30px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 120px;
+}
+.mainCommunity .communityBox .communityContent .bannerDisc li {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #aaa;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.mainCommunity .pickBox {
+  width: 100%;
+  background-color: #ddd;
+  margin-top: 20px;
+  height: 180px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.mainCommunity .pickBox .siteInform {
+  text-align: left;
+  padding-left: 20px;
+}
+.mainCommunity .pickBox .siteInform p {
+  margin-bottom: 50px;
+}
+.mainCommunity .pickBox .siteInform span {
+  color: #494949;
+}
+.mainCommunity .pickBox .siteImage {
+  width: 200px;
+  height: 150px;
+  border: 1px solid #2e2e2e;
+}
+
+.footerBox {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+.footerBox button {
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  background-color: #aaa;
+  color: #fff;
+  font-size: 14px;
+}/*# sourceMappingURL=main.css.map */
